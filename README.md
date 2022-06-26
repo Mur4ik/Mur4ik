@@ -1,5 +1,5 @@
 ### Hi there 👋
-## More info about me [here](https://mur4ik.github.io/Mur4ik/about/)
+### More info about me [here](https://mur4ik.github.io/Mur4ik/about/)
 <!--
 **Mur4ik/Mur4ik** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
