@@ -1,0 +1,70 @@
+body {
+    height: 100vh;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+
+.about-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    border-radius: 10px;
+    border: 5px solid white;
+    box-shadow: 7px 7px 12px 0px lightgrey;
+    margin-bottom: 16px;
+    text-align: center;
+    margin: 16px;
+}
+
+.cv-links-container {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 16px;
+    padding: 5px;
+    display: flex;
+}
+
+.cv-links-container a {
+    width: 100px;
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(84, 84, 84);
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.cv-links-container a:hover {
+    background-color: rgb(59, 57, 84);
+}
+
+@media screen and (orientation:landscape) and (max-device-height: 560px) {
+    main {
+        flex-direction: row;
+    }
+}
